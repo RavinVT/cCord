@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --clean --icon=icon.ico --add-data "assets:assets" --hidden-import=cryptography --hidden-import=speech_recognition --hidden-import=pygame --hidden-import=msgpack client.py
