@@ -25,4 +25,4 @@ The client handles all of the "peer to peer" activity, it has the ability to enc
 
 
 ## Compiling
-Ok so probably the wrong word but there is an encluded `compile_client.sh` for those on linux with the pyinstaller command that is required. The server currently does not have a compile script but it will in the future.
+Ok so probably the wrong word but there is an encluded `compile_client.sh` for those on linux with the pyinstaller command that is required. The server can be compiled via the `compile_server.sh` for those on linux with the pyinstaller command that is required. Windows versions coming soon. This should already work on MacOS if not it should work when the Windows versions are added.
