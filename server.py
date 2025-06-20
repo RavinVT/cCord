@@ -9,6 +9,8 @@ import sys
 
 
 SERVER_ADDRESS = ("localhost", 25589)
+
+# Sends back the video that the user sent back to them, good for testing and for those who want to see themselves after they where processed on the internet, does interfear if there is more than 1 user is on the server
 ALLOW_SELF_RECALL: bool = True
 
 
